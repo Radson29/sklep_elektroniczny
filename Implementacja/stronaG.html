@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Komputery i laptopy</title>
+    <link href="./css/custom_stronaG.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@400;600;700&family=Raleway&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg m-b-2">
+            <div class="container-fluid" style="padding-left: 0; padding-right: 0">
+                <span class="navbar-brand">Electro<span style="color: #F99746">Resovia</span></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <button class="btn me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list-ul"
+                            style="width: 20px; height: 20px" viewBox="0 0 15 15">
+                            <path fill-rule="evenodd"
+                                d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg>
+                        &nbsp;Katalog
+                    </button>
+                    <form class="d-flex me-2 search" role="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 20 20">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                        <input class="searchInput" type="search" placeholder="szukaj" aria-label="Search">
+                        <button class="btn szukajButton" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right"
+                                style="width: 16px; height: 16px;" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </button>
+                    </form>
+                    <button class="btn me-2 btn-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="red" class="bi bi-heart"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                        </svg>
+                        &nbsp; Ulubione
+                    </button>
+                    <button class="btn me-2 btn-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                            class="bi bi-bag" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                        </svg>
+                        &nbsp; Koszyk
+                    </button>
+                    <button class="btn me-2">Zaloguj</button>
+                </div>
+            </div>
+        </nav>
+        <div class="mainfoto">
+            
+            <p class="herotext">Wybierz się z nami w podróż po zakupach w internecie i przekonaj się<br>
+                jak proste, szybkie i wygodnie stają się one gdy wybierasz <span style="color: #F99746;" >Electro</span>Resovie
+               </p>
+               <p class="herotextv2">
+                Skorzystaj z wyszukiwarki, aby znaleźć potrzebne produkty
+               </p>
+
+               <form class="d-flex me-2 searchHero" role="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 20 20">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+                <input class="searchInput" type="search" placeholder="szukaj" aria-label="Search">
+                <button class="btn szukajButton" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right"
+                        style="width: 16px; height: 16px;" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                </button>
+            </form>
+
+               
+        </div>
+        
+
+<section id="flaming" >
+    <h2 class="h2"> Gorące Kategorie <img class="fire" src="img/fire.png" alt=""> <span class="float-end">Zobacz więcej</span></h2>
+    
+        <div class="card-group cat">
+            <div class="card   mx-3 align-items-center category" >
+              <img src="img/tel.png"  width="23" height="36" alt="...">
+              <div class="card-body">
+               <p class="categoryParag">Smartfony i tablety</p>
+              </div>
+            </div>
+            <div class="card mx-3 align-items-center category">
+              <img src="img/laptop.png" class="" width="36" height="36" alt="...">
+              <div class="card-body">
+                <p class="categoryParag">Komputery i laptopy</p>
+              </div>
+            </div>
+            <div class="card mx-3 align-items-center category">
+              <img src="img/watch.png" class=""width="23" height="36" alt="...">
+              <div class="card-body">
+                <p class="categoryParag">Zegarki i bransoletki</p>
+              </div>
+            </div>
+            <div class="card mx-3 align-items-center category">
+                <img src="img/monitor.png" class=""width="36" height="36" alt="...">
+                <div class="card-body">
+                    <p class="categoryParag">TV i monitory</p>
+                </div>
+              </div>
+              <div class="card mx-3 align-items-center category">
+                <img src="img/router.png" class="" width="36" height="36" alt="...">
+                <div class="card-body">
+                    <p class="categoryParag">sprzęt sieciowy</p>
+                </div>
+              </div>
+              <div class="card mx-3 align-items-center category">
+                <img src="img/hardware.png" class="" width="36" height="36" alt="...">
+                <div class="card-body">
+                    <p class="categoryParag">Podzespoły komputerowe</p>
+                </div>
+              </div>
+          </div>
+
+          <h2 class="h2">Popularne towary <span class="float-end">Zobacz więcej</span></h2>
+          <div class="card-group cat">
+            <div class="card karta produkt mx-3">
+              <img src="img/macbook.png" class="card-img-top" alt="...">
+              <p class="popular">Macbook Pro 16”</p>
+              <div class="card-body">
+                <div class="d-flex  w-100 justify-content-between align-items-center">
+                    <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                    <div class="d-flex w-50 justify-content-end align-items-center">
+                        <button class="btn btn-outline produkt-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </button>
+                        <button class="btn w-50 produkt-button ms-1">
+                            Kup
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card karta produkt mx-3">
+              <img src="img/applewatch.png" class="card-img-top" alt="...">
+              <p class="popular">Smart watch Xiaomi Mi Watch </p>
+              <div class="card-body">
+                <div class="d-flex  w-100 justify-content-between align-items-center">
+                    <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                    <div class="d-flex w-50 price w-100 justify-content-end align-items-center">
+                        <button class="btn btn-outline produkt-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </button>
+                        <button class="btn w-50 produkt-button ms-1">
+                            Kup
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card karta produkt mx-3">
+              <img src="img/ryzen.png" class="card-img-top" alt="...">
+              <p class="popular">Procesor AMD Ryzen 5 5600X
+                </p>
+              <div class="card-body">
+                <div class="d-flex  w-100 justify-content-between align-items-center">
+                    <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                    <div class="d-flex w-50 justify-content-end align-items-center">
+                        <button class="btn btn-outline produkt-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </button>
+                        <button class="btn w-50 produkt-button ms-1">
+                            Kup
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card karta produkt mx-3">
+                <img src="img/TV.png" class="card-img-top" alt="...">
+                <p class="popular">Telewizor Samsung 
+                </p>
+                <div class="card-body">
+                    <div class="d-flex  w-100 justify-content-between align-items-center">
+                        <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                        <div class="d-flex w-50 justify-content-end align-items-center">
+                            <button class="btn btn-outline produkt-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                    <path
+                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                </svg>
+                            </button>
+                            <button class="btn w-50 produkt-button ms-1">
+                                Kup
+                            </button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <h2 class="h2">Nowości <span class="float-end">Zobacz więcej</span></h2>
+          <div class="card-group cat">
+            <div class="card karta produkt mx-3">
+              <img src="img/tablet.png" class="card-img-top" alt="...">
+              <p class="popular"> Tablet Xiaomi Pad 5  </p>
+              <div class="card-body">
+                <div class="d-flex  w-100 justify-content-between align-items-center">
+                    <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                    <div class="d-flex w-50 justify-content-end align-items-center">
+                        <button class="btn btn-outline produkt-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </button>
+                        <button class="btn w-50 produkt-button ms-1">
+                            Kup
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card karta produkt mx-3">
+              <img class="produkt" src="img/xiaomi.png" class="card-img-top" alt="...">
+              <p class="popular">Xiaomi Redmi Note 11  </p>
+              <div class="card-body">
+                <div class="d-flex  w-100 justify-content-between align-items-center">
+                    <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                    <div class="d-flex w-50 justify-content-end align-items-center">
+                        <button class="btn btn-outline produkt-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </button>
+                        <button class="btn w-50 produkt-button ms-1">
+                            Kup
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card karta produkt mx-3" >
+              <img src="img/geforce.png" class="card-img-top" alt="...">
+              <p class="popular">Karta graficzna Gaming 
+            </p>
+              <div class="card-body">
+                <div class="d-flex  w-100 justify-content-between align-items-center">
+                    <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                    <div class="d-flex w-50 justify-content-end align-items-center">
+                        <button class="btn btn-outline produkt-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </button>
+                        <button class="btn w-50 produkt-button ms-1">
+                            Kup
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card karta produkt mx-3 ">
+                <img src="img/soundbar.png" class="card-img-top" alt="...">
+                <p class="popular">Głośnik Sony SRS-XB13</p>
+                <div class="card-body">
+                    <div class="d-flex  w-100 justify-content-between align-items-center">
+                        <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                        <div class="d-flex w-50 justify-content-end align-items-center">
+                            <button class="btn btn-outline produkt-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    fill="currentColor" class="bi bi-heart" viewBox="-2 -2 19 19">
+                                    <path
+                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                </svg>
+                            </button>
+                            <button class="btn w-50 produkt-button ms-1">
+                                Kup
+                            </button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+          
+          <div class="tradePhoto">
+            <p class="bannerH" >ZŁÓŻ SWÓJ KOMPUTER - KONFIGURATOR PC
+            <div class="textBanner">
+                
+                </p>
+                <p class="bannerText">Po skompletowaniu wszystkich podzespołów możesz również zdecydować się na usługę montażu, którą sprawnie i szybko wykonają specjaliści.
+                    <br>Gotowy i przetestowany sprzęt zostanie wówczas dostarczony pod wskazany przez Ciebie adres.
+                    </p>
+                    <button class="btn bannerBtn">
+                        Konfigurator PC
+                    </button>
+            </div>
+            </div>
+           
+            <h2 class="h2">Blog <span class="float-end">Zobacz więcej</span></h2>
+          <div class="card-group cat" style="width: 100%;" >
+            <div class="blog  mx-3 ">
+                <img src="img/headphones.png" class="card-img-top" alt="...">
+                <p class="blogComments">Jakie słuchawki wybrać
+                    w 2022 roku</p>
+               
+              </div>
+            <div class="blog mx-3 ">
+                <img src="img/pilot.png" class="card-img-top" alt="...">
+                <p class="blogComments">Oprogramowanie sprzętowe dekodera </p>
+               
+              </div>
+            <div class="blog mx-3 ">
+                <img src="img/scooter.png" class="card-img-top" alt="...">
+                <p class="blogComments">Przegląd nowej hulajnogi elektrycznej 
+                    </p>
+               
+              </div>
+            <div class="blog mx-3 ">
+                <img src="img/miband.png" class="card-img-top" alt="...">
+                <p class="blogComments">Płatność zbliżeniowa
+                    bransoletą  fitness</p>
+               
+              </div>
+          </div>
+
+
+          <h2 class="h3" style="justify-items: center;">Najczęściej komentowane produkty</h2>
+          
+<div class="comments">
+          <div class="col-12 col-lg-9 ps-lg-5 comments w-100" >
+           
+            <div class="commentProd card row mb-3 mb-lg-3" style="font-weight:400;">
+                <span style="color:#828282;font-weight: 800;"> </span>
+                <div class="row align-items-center">
+                    <div class="col-sm"> <img src="img/iphone.png" class="img-fluid" alt="Responsive image"></div>
+                    <div class="col-9 ">
+                       
+                        <span>Iphone 11<br>
+                            <span style="color:#FFE24D">★★★★★ </span><span style="font-weight: 700;">4.9</span>
+                          
+
+                    </div>
+                    <div class="col-sm" style="text-align: right;font-weight: 600;">
+                        
+                        <p style="font-weight: 400;" class="parafCom"> 37 opinii</p>
+                        <button class="btn btnComments custom-btn3 " ">Zobacz</button>
+                        
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            <div class="col-12 col-lg-9 ps-lg-5 w-100">
+           
+                <div class=" commentProd card row mb-3 mb-lg-3" style="font-weight:400;">
+                    <span style="color:#828282;font-weight: 800;"> </span>
+                    <div class="row align-items-center">
+                        <div class="col-sm"> <img src="img/tablets.png" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-9 ">
+                           
+                            <span>Tablet Xiaomi Pad 5 6/128Gb Cosmic Gray
+                                <br>
+                                <span style="color:#FFE24D">★★★★★ </span><span style="font-weight: 600;">4.7</span>
+                              
+    
+                        </div>
+                        <div class="col-sm" style="text-align: right;font-weight: 600;">
+                            
+                            <p style="font-weight: 400;" class="parafCom"> 37 opinii</p>
+                            <button class="btn btnComments custom-btn3 " ;">Zobacz</button>
+                        </div>
+                    </div>
+    
+                </div>
+                </div>
+                <div class="col-12 col-lg-9 ps-lg-5 w-100">
+           
+                    <div class="commentProd card row mb-3 mb-lg-3" style="font-weight:400;">
+                        <span style="color:#828282;font-weight: 800;"> </span>
+                        <div class="row align-items-center">
+                            <div class="col-sm"> <img src="img/headphones2.png" class="img-fluid" alt="Responsive image"></div>
+                            <div class="col-9 ">
+                               
+                                <span>Sony ZX378<br>
+                                    <span style="color:#FFE24D">★★★★★ </span><span style="font-weight: 600;">4.2   </span>
+                                  
+        
+                            </div>
+                            <div class="col-sm" style="text-align: right;font-weight: 600;">
+                                
+                                <p style="font-weight: 400;" class="parafCom"> 37 opinii</p>
+                                <button class="btn btnComments custom-btn3 "">Zobacz</button>
+                            </div>
+                        </div>
+        
+                    </div>
+                    </div>
+                    <div class="col-12 col-lg-9 ps-lg-5 w-100">
+           
+                        <div class="commentProd card row mb-3 mb-lg-3" style="font-weight:400;">
+                            <span style="color:#828282;font-weight: 800;"> </span>
+                            <div class="row align-items-center">
+                                <div class="col-sm"> <img src="img/watchapple.png" class="img-fluid" alt="Responsive image"></div>
+                                <div class="col-9 ">
+                                   
+                                    <span>Apple watch<br>
+                                        <span style="color:#FFE24D">★★★★★ </span><span style="font-weight: 600;">4.8</span>
+                                      
+            
+                                </div>
+                                <div class="col-sm" style="text-align: right;font-weight: 600;">
+                                    
+                                    <p style="font-weight: 400;" class="parafCom"> 37 opinii</p>
+                                    <button class="btn btnComments custom-btn3 " ">Zobacz</button>
+                                </div>
+                            </div>
+            
+                        </div>
+                        </div>
+                        <div class="col-12 col-lg-9 ps-lg-5 w-100 comments">
+           
+                            <div class="commentProd card row mb-3 mb-lg-3" style="font-weight:400;">
+                              
+                                <div class="row align-items-center">
+                                    <div class="col-sm"> <img src="img/vga.png" class="img-fluid" alt="Responsive image"></div>
+                                    <div class="col-9 opinions">
+                                       
+                                        <span>Adapter VGA - HDMI<br>
+                                            <span style="color:#FFE24D">★★★★★ </span><span style="font-weight: 600;">3.3</span>
+                                          
+                
+                                    </div>
+                                    <div class="col-sm" style="text-align: right;font-weight: 600;">
+                                        
+                                        
+                                        <p style="font-weight: 400;" class="parafCom"> 37 opinii</p>
+                                        <button class="btn btnComments custom-btn3  ">Zobacz</button>
+                                    </div>
+                                </div>
+                
+                            </div>
+                            </div>
+                        </div>
+
+                    </div>
+</section>
+<div class="container-fluid p-0">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c1c1f"
+  >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+          <!-- Section: Links -->
+          <section class="">
+              <!--Grid row-->
+              <div class="row">
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5">
+
+                      <div style="margin-top: -15%; margin-bottom: 15%">
+                          <span class="fs-4 navbar-brand" style="color:#F99746">Electro<span
+                                  style="color:white">Resovia</span></span>
+                      </div>
+                      <p>
+                          Obserwuj nas:
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                           class="bi bi-facebook m-2" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                           class="bi bi-twitter m-2" viewBox="0 0 16 16">
+                          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                           class="bi bi-instagram m-2" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5 ">
+                      <h5 class="footer-list_header">Produkt</h5>
+
+                      <ul class="list-unstyled mb-0 footer-list-item">
+                          <li>
+                              <p>Wyprzedaż</p>
+                          </li>
+                          <li>
+                              <p>Kategorie</p>
+                          </li>
+                          <li>
+                              <p>Popularne</p>
+                          </li>
+                          <li>
+                              <p>Nowości</p>
+                          </li>
+                      </ul>
+                  </div>
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5 ">
+                      <h5 class="footer-list_header">Marketplace</h5>
+
+                      <ul class="list-unstyled mb-0 footer-list-item">
+                          <li>
+                              <p>O nas</p>
+                          </li>
+                          <li>
+                              <p>Kontakt</p>
+                          </li>
+                          <li>
+                              <p>blog</p>
+                          </li>
+                          <li>
+                              <p>Partnerzy</p>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5 ">
+                      <h5 class="footer-list_header">Informacje</h5>
+
+                      <ul class="list-unstyled footer-list-item mb-0">
+                          <li>
+                              <p>Zasady i warunki</p>
+                          </li>
+                          <li>
+                              <p>Polityka prywatności</p>
+                          </li>
+                          <li>
+                              <p>Umowa licencyjna</p>
+                          </li>
+                          <li>
+                              <p>FAQ</p>
+                          </li>
+                      </ul>
+                  </div>
+
+
+                  <!--Grid column-->
+              </div>
+              <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+
+          <hr class="mb-4"/>
+
+          <!-- Section: CTA -->
+          <section class="">
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center">
+                      <button type="button" class="btn  btn-rounded me-4">
+                          Promocje
+                      </button>
+                      <p class="footer-text">Specjalne oferty <br> i rabaty do 70%</p>
+                  </div>
+
+                  <form class="d-flex me-2 search" role="search">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 -2 20 20">
+                          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                      <input class="searchInput" type="search" placeholder=
+                              "zapisz się do naszego newslettera" aria-label="Search">
+                      <button class="btn " type="submit" class="szukajButton">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right"
+                               style="width: 16px; height: 16px;" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                      </button>
+                  </form>
+              </div>
+
+          </section>
+          <!-- Section: CTA -->
+
+          <hr class="mb-4"/>
+
+          <!-- Section: Social media -->
+          <section class="mb-4 text-center">
+              <!-- Facebook -->
+
+          </section>
+
+          <!-- Copyright -->
+          <section class=" pt-0">
+              <div class="row d-flex align-items-center">
+                  <!-- Grid column -->
+                  <div class="col-md-7 col-lg-8 text-center text-md-start p-0">
+                      <!-- Copyright -->
+                      <div class="p-3 footer-text">
+                          © 2022 ElectroResovia. Wszelkie prawa zastrzeżone.
+
+                      </div>
+                      <!-- Copyright -->
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+                      <img src="./img/icons8-visa-48.png" alt="" srcset="">
+                      <img src="./img/icons8-visa-48.png" alt="" srcset="">
+                      <img src="./img/icons8-visa-48.png" alt="" srcset="">
+
+
+                  </div>
+                  <!-- Grid column -->
+              </div>
+          </section>
+          <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+
+      <!-- Section: Copyright -->
+  </footer>
+</div> </div>
+
+
+
+        
+        
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

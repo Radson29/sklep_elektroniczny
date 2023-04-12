@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Komputery i laptopy</title>
+    <link href="./css/custom_kategorie.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@400;600;700&family=Raleway&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg m-b-2">
+        <div class="container-fluid" style="padding-left: 0; padding-right: 0">
+            <span class="navbar-brand">Electro<span style="color: #F99746">Resovia</span></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button class="btn me-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list-ul"
+                         style="width: 20px; height: 20px" viewBox="0 0 15 15">
+                        <path fill-rule="evenodd"
+                              d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                    </svg>
+                    &nbsp;Katalog
+                </button>
+                <form class="d-flex me-2 search" role="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                         class="bi bi-search" viewBox="0 0 20 20">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                    <input class="searchInput" type="search" placeholder=
+                            "szukaj" aria-label="Search">
+                    <button class="btn szukajButton" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right"
+                             style="width: 16px; height: 16px;" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </button>
+                </form>
+                <button class="btn me-2 btn-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="red" class="bi bi-heart"
+                         viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg>
+                    &nbsp; Ulubione
+                </button>
+                <button class="btn me-2 btn-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-bag"
+                         viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                    </svg>
+                    &nbsp; Koszyk
+                </button>
+                <button class="btn me-2">Zaloguj</button>
+            </div>
+        </div>
+    </nav>
+
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+            <li class="breadcrumb-item" aria-current="page">Kategorie</li>
+            <li class="breadcrumb-item active" aria-current="page">Komputery i laptopy</li>
+        </ol>
+    </nav>
+
+    <div class="d-flex align-items-center">
+        <h1>Komputery i laptopy</h1>
+        <button type="button" class="btn btn-filtry ms-4 d-lg-none" data-bs-toggle="modal"
+                data-bs-target="#filtryModal">
+            Filtry
+        </button>
+    </div>
+
+    <div class="modal fade" id="filtryModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Filtry</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="filtry">
+                        <ul class="list-group list-group-flush p-0 mb-4">
+                            <li class="list-group-item p-0">
+                                <form class="d-flex me-2 search w-100" role="search">
+                                    <input class="searchInput ms-1" type="search" placeholder="Szukaj według kategorii"
+                                           aria-label="Search">
+                                    <button class="btn szukajButtonSide" type="submit">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                             fill="currentColor"
+                                             class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                        <div class="accordion w-100" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                        Cena (zł)
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                     aria-labelledby="headingOne"
+                                >
+                                    <div class="accordion-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <input class="cena" placeholder="300"> -
+                                            <input class="cena" placeholder="2600">
+                                        </div>
+
+                                        <div class="my-4">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                       id="flexCheckDefaultModal">
+                                                <label class="form-check-label" for="flexCheckDefaultModal">
+                                                    Mniej niż 1000zł
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                       id="flexCheckDefault2Modal">
+                                                <label class="form-check-label" for="flexCheckDefault2Modal">
+                                                    1000 - 1500zł
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                       id="flexCheckDefault3Modal">
+                                                <label class="form-check-label" for="flexCheckDefault3Modal">
+                                                    1501 - 2500zł
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                       id="flexCheckDefault4Modal">
+                                                <label class="form-check-label" for="flexCheckDefault4Modal">
+                                                    2501 - 3600zł
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                       id="flexCheckDefault5Modal">
+                                                <label class="form-check-label" for="flexCheckDefault5Modal">
+                                                    3601 - 5000zł
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseTwo">
+                                        Sprzedawca
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
+                                     aria-labelledby="headingTwo"
+                                >
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                   id="flexCheckDefault6Modal" checked>
+                                            <label class="form-check-label" for="flexCheckDefault6Modal">
+                                                ElectroResovia
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                   id="flexCheckDefault7Modal">
+                                            <label class="form-check-label" for="flexCheckDefault7Modal">
+                                                Inni sprzedawcy (657)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="true"
+                                            aria-controls="collapseThree">
+                                        Procesor
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse show"
+                                     aria-labelledby="headingThree"
+                                >
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                   id="flexCheckDefault8Modal">
+                                            <label class="form-check-label" for="flexCheckDefault8Modal">
+                                                AMD Ryzen
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                   id="flexCheckDefault9Modal">
+                                            <label class="form-check-label" for="flexCheckDefault9Modal">
+                                                Apple
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                   id="flexCheckDefault10Modal">
+                                            <label class="form-check-label" for="flexCheckDefault9Modal">
+                                                Intel core i5
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                   id="flexCheckDefault11Modal">
+                                            <label class="form-check-label" for="flexCheckDefault9Modal">
+                                                Intel core i7
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                        Kolor
+                                    </button>
+                                </h2>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                        Producenci
+                                    </button>
+                                </h2>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix">
+                                        System operacyjny
+                                    </button>
+                                </h2>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseSeven" aria-expanded="false"
+                                            aria-controls="collapseSeven">
+                                        Rozdzielczość
+                                    </button>
+                                </h2>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseEight" aria-expanded="false"
+                                            aria-controls="collapseEight">
+                                        RAM
+                                    </button>
+                                </h2>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingNine">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseNine" aria-expanded="false"
+                                            aria-controls="collapseNine">
+                                        Dyski
+                                    </button>
+                                </h2>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTen" aria-expanded="false"
+                                            aria-controls="collapseTen">
+                                        Typ matrycy
+                                    </button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-side" style="margin-top: 15%">
+                        Zastosuj filtry
+                    </button>
+                    <button class="btn btn-side btn-outline">
+                        Reset
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row content">
+        <div class="card col-12 col-lg-3 mb-5 mb-lg-0 d-none d-lg-block filtry">
+            <ul class="list-group list-group-flush p-0 mb-4">
+                <li class="list-group-item p-0">
+                    <form class="d-flex me-2 search w-100" role="search">
+                        <input class="searchInput ms-1" type="search" placeholder="Szukaj według kategorii"
+                               aria-label="Search">
+                        <button class="btn szukajButtonSide" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                 class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+            <div class="accordion w-100" id="accordionExample2">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne2">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                            Cena (zł)
+                        </button>
+                    </h2>
+                    <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne2"
+                    >
+                        <div class="accordion-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <input class="cena" placeholder="300"> -
+                                <input class="cena" placeholder="2600">
+                            </div>
+                            <div class="my-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Mniej niż 1000zł
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                        1000 - 1500zł
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                        1501 - 2500zł
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                    <label class="form-check-label" for="flexCheckDefault4">
+                                        2501 - 3600zł
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                                    <label class="form-check-label" for="flexCheckDefault5">
+                                        3601 - 5000zł
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo2" aria-expanded="true" aria-controls="collapseTwo2">
+                            Sprzedawca
+                        </button>
+                    </h2>
+                    <div id="collapseTwo2" class="accordion-collapse collapse show" aria-labelledby="headingTwo2"
+                    >
+                        <div class="accordion-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6" checked>
+                                <label class="form-check-label" for="flexCheckDefault6">
+                                    ElectroResovia
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                                <label class="form-check-label" for="flexCheckDefault7">
+                                    Inni sprzedawcy (657)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree2" aria-expanded="true" aria-controls="collapseThree2">
+                            Procesor
+                        </button>
+                    </h2>
+                    <div id="collapseThree2" class="accordion-collapse collapse show" aria-labelledby="headingThree2"
+                    >
+                        <div class="accordion-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                <label class="form-check-label" for="flexCheckDefault8">
+                                    AMD Ryzen
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                                <label class="form-check-label" for="flexCheckDefault9">
+                                    Apple
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                                <label class="form-check-label" for="flexCheckDefault9">
+                                    Intel core i5
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                                <label class="form-check-label" for="flexCheckDefault9">
+                                    Intel core i7
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour2" aria-expanded="false" aria-controls="collapseFour2">
+                            Kolor
+                        </button>
+                    </h2>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive2" aria-expanded="false" aria-controls="collapseFive2">
+                            Producenci
+                        </button>
+                    </h2>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix2" aria-expanded="false" aria-controls="collapseSix2">
+                            System operacyjny
+                        </button>
+                    </h2>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven2" aria-expanded="false" aria-controls="collapseSeven2">
+                            Rozdzielczość
+                        </button>
+                    </h2>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight2" aria-expanded="false" aria-controls="collapseEight2">
+                            RAM
+                        </button>
+                    </h2>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNine2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine2" aria-expanded="false" aria-controls="collapseNine2">
+                            Dyski
+                        </button>
+                    </h2>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTen2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen2" aria-expanded="false" aria-controls="collapseTen2">
+                            Typ matrycy
+                        </button>
+                    </h2>
+                </div>
+            </div>
+            <button class="btn btn-side" style="margin-top: 15%">
+                Zastosuj filtry
+            </button>
+            <button class="btn btn-side btn-outline">
+                Reset
+            </button>
+        </div>
+
+        <div class="col-12 col-lg-9 ps-lg-5">
+            <div class="card row mb-3 mb-lg-5" id="kategorie">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between overflow-x-auto">
+                        <button class="btn btn-kategoria btn-kategoria-active"> Laptopy </button>
+                        <button class="btn btn-kategoria mx-3"> Komputery </button>
+                        <button class="btn btn-kategoria me-3"> Akcesoria do laptopów </button>
+                        <button class="btn btn-kategoria me-3"> Komputery </button>
+                        <button class="btn btn-kategoria me-3"> Biznesowe </button>
+                        <button class="btn btn-kategoria me-3"> Monitory </button>
+                        <button class="btn btn-kategoria me-3"> Serwery </button>
+                        <button class="btn btn-kategoria"> Gaming </button>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="accordion w-25" id="Popularne">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingPopularne">
+                                    <button class="accordion-button collapsed" id="btn-popularne" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapsePopularne" aria-expanded="false" aria-controls="collapsePopularne">
+                                        <span style="color: #F99746; margin-right: 10%"> Popularne </span>
+                                    </button>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#C4C4C4FF" class="bi bi-view-stacked" viewBox="0 0 16 16">
+                                <path d="M3 0h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3zm0 8h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1H3z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#F99746FF" class="bi bi-grid ms-3" viewBox="0 0 16 16">
+                                <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row mb-3" id="oferty">
+                <div class="d-flex flex-wrap p-0">
+                    <div class="d-flex col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Lenovo.png" alt="Lenovo">
+                            <p>Laptop Lenovo V15 G2 ITL</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-md-end justify-content-lg-center col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Gigabyte.png" alt="Gigabyte">
+                            <p>Laptop Gigabyte G5 KD-52EE123SD</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">2137zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-md-start justify-content-lg-end col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Asus.png" alt="Gigabyte">
+                            <p>Laptop Asus VivoBook 15 X515EA</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">3578zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-md-end justify-content-lg-start col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Asus.png" alt="Gigabyte">
+                            <p>Laptop Asus VivoBook 15 X515EA</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">3578zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-md-start justify-content-lg-center col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Gigabyte.png" alt="Gigabyte">
+                            <p>Laptop Gigabyte G5 KD-52EE123SD</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">2137zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-md-end justify-content-lg-end col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                        <img src="img/Lenovo.png" alt="Lenovo">
+                        <p>Laptop Lenovo V15 G2 ITL</p>
+                        <div class="d-flex  w-100 justify-content-between align-items-center">
+                            <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                            <div class="d-flex w-50 justify-content-end align-items-center">
+                                <button class="btn btn-outline produkt-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                         viewBox="-2 -2 19 19">
+                                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg>
+                                </button>
+                                <button class="btn w-50 produkt-button ms-1">
+                                    Kup
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="d-flex justify-content-md-start justify-content-lg-start col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Gigabyte.png" alt="Gigabyte">
+                            <p>Laptop Gigabyte G5 KD-52EE123SD</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">2137zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-md-end justify-content-lg-center col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Asus.png" alt="Gigabyte">
+                            <p>Laptop Asus VivoBook 15 X515EA</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">3578zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex d-md-none d-lg-flex justify-content-lg-end col-12 col-md-6 col-lg-4 py-3 produkt-wrap">
+                        <div class="card produkt d-flex">
+                            <img src="img/Lenovo.png" alt="Lenovo">
+                            <p>Laptop Lenovo V15 G2 ITL</p>
+                            <div class="d-flex  w-100 justify-content-between align-items-center">
+                                <h4 class="w-xl-75 m-0 ">2599zł</h4>
+                                <div class="d-flex w-50 justify-content-end align-items-center">
+                                    <button class="btn btn-outline produkt-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart"
+                                             viewBox="-2 -2 19 19">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn w-50 produkt-button ms-1">
+                                        Kup
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card row" id="paginacja">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination pagination-lg d-flex justify-content-evenly overflow-hidden">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item d-none d-sm-block"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item d-none d-md-block"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item d-none d-md-block"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item d-none d-md-block"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item d-none d-md-block"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link disabled" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link d" href="#">12</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid p-0">
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #1c1c1f"
+    >
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5">
+
+                        <div style="margin-top: -15%; margin-bottom: 15%">
+                            <span class="fs-4 navbar-brand" style="color:#F99746">Electro<span
+                                    style="color:white">Resovia</span></span>
+                        </div>
+                        <p>
+                            Obserwuj nas:
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-facebook m-2" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-twitter m-2" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-instagram m-2" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5 ">
+                        <h5 class="footer-list_header">Produkt</h5>
+
+                        <ul class="list-unstyled mb-0 footer-list-item">
+                            <li>
+                                <p>Wyprzedaż</p>
+                            </li>
+                            <li>
+                                <p>Kategorie</p>
+                            </li>
+                            <li>
+                                <p>Popularne</p>
+                            </li>
+                            <li>
+                                <p>Nowości</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5 ">
+                        <h5 class="footer-list_header">Marketplace</h5>
+
+                        <ul class="list-unstyled mb-0 footer-list-item">
+                            <li>
+                                <p>O nas</p>
+                            </li>
+                            <li>
+                                <p>Kontakt</p>
+                            </li>
+                            <li>
+                                <p>blog</p>
+                            </li>
+                            <li>
+                                <p>Partnerzy</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 p-5 ">
+                        <h5 class="footer-list_header">Informacje</h5>
+
+                        <ul class="list-unstyled footer-list-item mb-0">
+                            <li>
+                                <p>Zasady i warunki</p>
+                            </li>
+                            <li>
+                                <p>Polityka prywatności</p>
+                            </li>
+                            <li>
+                                <p>Umowa licencyjna</p>
+                            </li>
+                            <li>
+                                <p>FAQ</p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="mb-4"/>
+
+            <!-- Section: CTA -->
+            <section class="">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                        <button type="button" class="btn  btn-rounded me-4">
+                            Promocje
+                        </button>
+                        <p class="footer-text">Specjalne oferty <br> i rabaty do 70%</p>
+                    </div>
+
+                    <form class="d-flex me-2 search" role="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 -2 20 20">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+                        <input class="searchInput" type="search" placeholder=
+                                "zapisz się do naszego newslettera" aria-label="Search">
+                        <button class="btn szukajButton" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right"
+                                 style="width: 16px; height: 16px;" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+            </section>
+            <!-- Section: CTA -->
+
+            <hr class="mb-4"/>
+
+            <!-- Section: Social media -->
+            <section class="mb-4 text-center">
+                <!-- Facebook -->
+
+            </section>
+
+            <!-- Copyright -->
+            <section class=" pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start p-0">
+                        <!-- Copyright -->
+                        <div class="p-3 footer-text">
+                            © 2022 ElectroResovia. Wszelkie prawa zastrzeżone.
+
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+                        <img src="./img/icons8-visa-48.png" alt="" srcset="">
+                        <img src="./img/icons8-visa-48.png" alt="" srcset="">
+                        <img src="./img/icons8-visa-48.png" alt="" srcset="">
+
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+
+        <!-- Section: Copyright -->
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

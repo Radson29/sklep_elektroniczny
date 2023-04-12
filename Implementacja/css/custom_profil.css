@@ -1,0 +1,173 @@
+@import "../bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@400;600;700&family=Raleway:wght@400;900&display=swap');
+
+
+
+body{
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+}
+
+.navbar{
+  width: inherit;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+
+.navbar-brand{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: calc(20px + 1.3vw);
+  margin-right: 1.5rem;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+  height: 2.5rem;
+  margin-bottom: -10px;
+}
+
+.show > * {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#main{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.btn{
+  background-color: #F99746;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(10px + 0.5vw);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover{
+  background-color: #F0F0F0;
+  color: white;
+}
+
+.search{
+  background-color: #F0F0F0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  height: max-content;
+  padding: 0 1% 0 1%;
+  width: 40%;
+}
+
+.show #search{
+  width: 100%;
+}
+
+::placeholder {
+  color:#C4C4C4;
+}
+
+
+.searchInput{
+  background-color: inherit;
+  color: black;
+  border: none;
+  font-size: 80%;
+  line-height: 2.375;
+  padding: 0.375rem 0.75rem;
+  width: 100%;
+  float: left;
+}
+
+.searchInput:focus{
+  outline: none;
+}
+
+.szukajButton{
+  --bs-btn-padding-x: 0.3rem;
+  --bs-btn-padding-y: 0.1rem;
+  float: right;
+}
+
+.btn-white{
+  color: black;
+  background-color: white;
+  font-weight: 400;
+  font-size: calc(6px + 0.5vw);
+  line-height: 2;
+}
+
+.btn-white:hover{
+  color: #F99746;
+  background-color: white;
+}
+
+.breadcrumb-item{
+  color: #F99746;
+}
+
+.display-3{
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.content{
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.pagination{
+  --bs-pagination-border-color: rgba(255, 0, 0, 0);
+  margin-bottom: 0;
+}
+
+.page-link{
+  color: #C4C4C4;
+}
+
+.page-link.disabled, .disabled > .page-link {
+  color: #C4C4C4;
+  pointer-events: none;
+  background-color: rgba(255, 0, 0, 0);
+  border-color: rgba(255, 0, 0, 0);
+}
+
+.page-link.active{
+  background-color: rgba(255, 0, 0, 0);
+  color: #F99746;
+  border-color: rgba(255, 0, 0, 0);
+}
+
+
+
+#footer{
+  background-color: black;
+  height: fit-content;
+  font-family: "Jost", sans-serif;
+}
+
+.footer-list_header{
+  padding-bottom: 5%;
+  font-weight: bold;
+  font-size: calc(15px + 0.5vw);
+}
+
+.footer-list-item{
+  font-size: calc(7px + 0.5vw);
+  color: #C4C4C4;
+}
+
+.footer-text{
+  color: #C4C4C4;
+  font-size: calc(7px + 0.5vw);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
